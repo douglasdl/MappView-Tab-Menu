@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="test" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="MainPage" />
+  <Pages>
+    <Page refId="MainPage"/>
+  </Pages>
+  <Navigations>
+    <!--<Navigation refId="" />-->
+  </Navigations>  
+  <BindingsSets>
+    	<BindingsSet refId="TestBinding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    	<EventBindingsSet refId="eventbinding_1" />
+  </EventBindingsSets>
+  <Dialogs>
+    <!--<Dialog refId="" />-->
+  </Dialogs>
+  <Contents>
+		<Content refId="MainContent" />
+		<Content refId="TabsContent" />
+		<Content refId="TabAContent" />
+		<Content refId="TabBContent" />
+		<Content refId="TabCContent" />
+  </Contents>
+  <SnippetsSets>
+    <!--<SnippetsSet refId=""/>-->
+  </SnippetsSets>
+  <ExpressionsSets>
+    <!--<ExpressionsSet refId=""/>-->
+  </ExpressionsSets>
+  <VariablesSets>
+    	<VariablesSet refId="svar_1" />
+  </VariablesSets>
+  <!--<StartTheme themeRefId="" />
+  <Themes>
+    <Theme refId=""/>
+  </Themes>-->
+  <Configurations>
+		<!-- Initial Screen (BOOT) -->
+		<Configuration key="activityCount" value="false" /> <!-- Need to be True to use ScreenSaverTimer -->
+		<Configuration key="zoom" value="true" />
+		<!-- <Configuration key="bootLogo" value="Media/BackGround/Bootlogo.png" /> -->
+		<!-- <Configuration key="bootColor" value="#FFFFFF" /> -->
+		<!-- <Configuration key="favicon" value="Media/BackGround/favicon.ico" /> -->
+		<Gestures>
+		  <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+	  </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards> 
+  </Configurations>
+</vdef:Visualization>

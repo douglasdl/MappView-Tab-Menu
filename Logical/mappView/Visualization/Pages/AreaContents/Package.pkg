@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package SubType="AreaContentsPackage" PackageType="AreaContentsPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Tabs.content</Object>
+    <Object Type="File">TabA.content</Object>
+    <Object Type="File">TabB.content</Object>
+    <Object Type="File">TabC.content</Object>
+  </Objects>
+</Package>
